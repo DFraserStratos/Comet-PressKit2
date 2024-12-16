@@ -1,62 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
 <company>
   <!-- General Information -->
-  <title>Your Company Name</title>
-  <based-in>Your Location</based-in>
-  <founding-date>Your Founding Date</founding-date>
-  <website>https://your-website.com</website>
-  <phone>Your Phone Number</phone>
+  <title>Comet Games Studio</title>
+  <based-in>Seattle, Washington</based-in>
+  <founding-date>March 15, 2022</founding-date>
+  <website>https://comet-games.com</website>
+  <phone>+1 (206) 555-0123</phone>
 
   <address>
-    <line>Your Address Line 1</line>
-    <line>Your Address Line 2</line>
-    <line>Country</line>
+    <line>420 Stardust Avenue</line>
+    <line>Seattle, WA 98101</line>
+    <line>United States</line>
   </address>
 
   <socials>
     <social>
       <n>Twitter</n>
-      <link>https://twitter.com/yourcompany</link>
+      <link>https://twitter.com/CometGames</link>
     </social>
     <social>
       <n>Facebook</n>
-      <link>https://facebook.com/yourcompany</link>
+      <link>https://facebook.com/CometGamesStudio</link>
+    </social>
+    <social>
+      <n>Discord</n>
+      <link>https://discord.gg/cometgames</link>
     </social>
   </socials>
 
-  <press-contact>press@your-company.com</press-contact>
+  <press-contact>press@comet-games.com</press-contact>
+  <analytics>UA-123456789-0</analytics>
 
   <!-- Description -->
   <description>
-    Your company description goes here.
+    Comet Games Studio is an indie game developer focused on creating immersive space exploration and cosmic horror experiences. Our team combines scientific accuracy with imaginative storytelling to craft unique gaming experiences that challenge players' perspectives of the universe.
   </description>
 
   <!-- History -->
   <histories>
     <history>
-      <header>Your Company History</header>
-      <text>Share your company's story here.</text>
+      <header>The Big Bang (2022)</header>
+      <text>Founded by former NASA scientist Dr. Sarah Chen and veteran game developer Marcus Wong, Comet Games Studio began with a simple mission: to make space exploration games that are both scientifically accurate and incredibly fun.</text>
+    </history>
+    <history>
+      <header>First Light (2023)</header>
+      <text>Released our first game, "Stellar Drift," which earned critical acclaim for its innovative zero-gravity mechanics and atmospheric storytelling. The game was featured at PAX West and won the "Best New Studio" award at IndieCade.</text>
+    </history>
+    <history>
+      <header>Expanding Universe (2024)</header>
+      <text>Grew from a team of 2 to 15 passionate developers, artists, and scientists. Opened our new studio in downtown Seattle with a built-in planetarium for inspiration.</text>
     </history>
   </histories>
+
+  <!-- Videos -->
+  <trailers>
+    <trailer>
+      <n>Comet Games Studio - Company Overview</n>
+      <youtube>dQw4w9WgXcQ</youtube>
+    </trailer>
+    <trailer>
+      <n>Behind the Scenes at Comet Games</n>
+      <vimeo>148751763</vimeo>
+    </trailer>
+  </trailers>
+
+  <!-- Awards & Recognition -->
+  <awards>
+    <award>
+      <description>Best New Studio</description>
+      <info>IndieCade Awards, Los Angeles, October 2023</info>
+    </award>
+    <award>
+      <description>Innovation in Science Communication</description>
+      <info>STEM Games Festival, San Francisco, May 2024</info>
+    </award>
+  </awards>
+
+  <!-- Press Quotes -->
+  <quotes>
+    <quote>
+      <description>Comet Games proves that educational games don't have to be boring. Their attention to scientific detail while maintaining engaging gameplay is unprecedented.</description>
+      <n>GameScience Magazine</n>
+      <website>Review</website>
+      <link>https://gamescience.com/reviews/stellar-drift</link>
+    </quote>
+    <quote>
+      <description>The future of space gaming is in good hands with Comet Games Studio.</description>
+      <n>@SpaceGameGuru</n>
+      <website>Tweet</website>
+      <link>https://twitter.com/SpaceGameGuru/status/1234567890</link>
+    </quote>
+  </quotes>
+
+  <!-- Additional Links -->
+  <additionals>
+    <additional>
+      <title>Developer Blog</title>
+      <description>Behind-the-scenes insights at</description>
+      <link>https://blog.comet-games.com</link>
+    </additional>
+    <additional>
+      <title>Science Corner</title>
+      <description>Our educational resources at</description>
+      <link>https://learn.comet-games.com</link>
+    </additional>
+  </additionals>
 
   <!-- Team -->
   <credits>
     <credit>
-      <person>Team Member Name</person>
-      <role>Role, Your Company</role>
-      <website>https://member-website.com</website>
+      <person>Dr. Sarah Chen</person>
+      <role>Founder, Chief Scientific Officer, Comet Games Studio</role>
+      <website>https://sarahchen.space</website>
+    </credit>
+    <credit>
+      <person>Marcus Wong</person>
+      <role>Founder, Creative Director, Comet Games Studio</role>
+      <website>https://marcuswong.dev</website>
+    </credit>
+    <credit>
+      <person>Luna Martinez</person>
+      <role>Lead Artist, Comet Games Studio</role>
+      <website>https://lunaart.gallery</website>
+    </credit>
+    <credit>
+      <person>Dr. James Black</person>
+      <role>Astrophysics Consultant</role>
+      <website>https://jamesblack.science</website>
     </credit>
   </credits>
 
   <!-- Contact Information -->
   <contacts>
     <contact>
-      <n>Inquiries</n>
-      <mail>contact@your-company.com</mail>
+      <n>General Inquiries</n>
+      <mail>hello@comet-games.com</mail>
+    </contact>
+    <contact>
+      <n>Press Kit</n>
+      <mail>press@comet-games.com</mail>
+    </contact>
+    <contact>
+      <n>Careers</n>
+      <mail>jobs@comet-games.com</mail>
     </contact>
     <contact>
       <n>Website</n>
-      <link>https://your-website.com</link>
+      <link>https://comet-games.com</link>
     </contact>
   </contacts>
 </company>

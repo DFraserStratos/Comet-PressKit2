@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+  <title>Stellar Drift</title>
+  <release-date>September 21, 2023</release-date>
+  <website>https://stellar-drift.com</website>
+
+  <prices>
+    <price>
+      <currency>USD</currency>
+      <value>24.99</value>
+    </price>
+    <price>
+      <currency>EUR</currency>
+      <value>22.99</value>
+    </price>
+  </prices>
+
+  <description>
+    Stellar Drift is a space exploration game that combines realistic orbital mechanics with supernatural horror. Players navigate through an accurately modeled solar system while uncovering ancient artifacts and cosmic entities that challenge their perception of reality.
+  </description>
+
+  <history>
+    Originally conceived during a game jam in 2022, Stellar Drift evolved from a simple orbital mechanics simulator into a full-fledged narrative experience. The game spent 18 months in development, with continuous input from both the gaming community and scientific advisors.
+  </history>
+
+  <features>
+    <feature>Accurate orbital mechanics and space physics</feature>
+    <feature>Dynamic time dilation effects</feature>
+    <feature>Procedurally generated anomalies</feature>
+    <feature>Multiple endings based on scientific discoveries</feature>
+    <feature>VR support with real-time star mapping</feature>
+    <feature>Educational mode with real astronomy lessons</feature>
+  </features>
+
+  <trailers>
+    <trailer>
+      <n>Stellar Drift - Launch Trailer</n>
+      <youtube>dQw4w9WgXcQ</youtube>
+    </trailer>
+    <trailer>
+      <n>Gameplay Deep Dive</n>
+      <youtube>dQw4w9WgXcQ</youtube>
+    </trailer>
+  </trailers>
+
+  <awards>
+    <award>
+      <description>Excellence in Science Visualization</description>
+      <info>NASA Science Games Showcase, Cape Canaveral, December 2023</info>
+    </award>
+    <award>
+      <description>Best Use of Real-World Physics</description>
+      <info>Steam Awards - Innovation Category, Nominee, 2023</info>
+    </award>
+  </awards>
+
+  <quotes>
+    <quote>
+      <description>Finally, a space game that doesn't ignore the laws of physics! Stellar Drift makes orbital mechanics not just accurate, but genuinely fun.</description>
+      <n>SpaceGame Central</n>
+      <website>Review</website>
+      <link>https://spacegame.central/reviews/stellar-drift</link>
+    </quote>
+    <quote>
+      <description>The perfect blend of scientific accuracy and cosmic horror. Stellar Drift will make you look at the stars differently.</description>
+      <n>Horror Gaming Monthly</n>
+      <website>Article</website>
+      <link>https://hgmonthly.com/stellar-drift-review</link>
+    </quote>
+  </quotes>
+
+  <credits>
+    <credit>
+      <person>Dr. Sarah Chen</person>
+      <role>Project Lead, Physics Engine</role>
+    </credit>
+    <credit>
+      <person>Marcus Wong</person>
+      <role>Game Director, Story</role>
+    </credit>
+    <credit>
+      <person>Luna Martinez</person>
+      <role>Art Director, Visual Effects</role>
+    </credit>
+  </credits>
+
+  <contacts>
+    <contact>
+      <n>Game Support</n>
+      <mail>support@stellar-drift.com</mail>
+    </contact>
+    <contact>
+      <n>Press Inquiries</n>
+      <mail>press@stellar-drift.com</mail>
+    </contact>
+  </contacts>
+</product>
