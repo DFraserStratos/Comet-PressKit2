@@ -6,211 +6,34 @@
     <title>Comet</title>
     <style>
         body {
-            font-family: serif;
-            line-height: 1.6;
-            color: #000;
-            max-width: 1200px;
+            max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            font-family: Times New Roman, serif;
+            line-height: 1.5;
         }
 
         img {
             max-width: 100%;
             height: auto;
-            display: block;
         }
 
-        .title {
-            font-size: 1.2em;
-            margin: 10px 0;
-        }
-
-        .nav {
-            margin: 10px 0 30px 0;
-        }
-
-        .nav a {
+        a {
             color: blue;
-            text-decoration: none;
-            margin-right: 10px;
         }
 
-        h1, h2 {
-            font-size: 1.5em;
+        h2 {
+            font-family: Times New Roman, serif;
+            font-weight: normal;
             margin: 1.5em 0 0.5em 0;
         }
 
-        dt {
+        .navigation a {
+            margin-right: 10px;
+        }
+
+        dl dt {
             margin-top: 1em;
         }
 
-        dd {
-            margin-left: 2em;
-        }
-
-        .won {
-            color: green;
-        }
-
-        .videos {
-            margin: 20px 0;
-        }
-
-        .video-item {
-            margin-bottom: 30px;
-        }
-
-        .images-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            margin: 20px 0;
-        }
-
-        .images-grid img {
-            width: 100%;
-            height: auto;
-        }
-
-        .team-member {
-            margin: 10px 0;
-        }
-
-        .contact-item {
-            margin: 10px 0;
-        }
-
-        @media (max-width: 768px) {
-            .images-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        @media (max-width: 480px) {
-            .images-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="title">Comet |</div>
-
-    <div class="nav">
-        <a href="#factsheet">Factsheet</a>
-        <a href="#description">Description</a>
-        <a href="#history">History</a>
-        <a href="#features">Features</a>
-        <a href="#videos">Videos</a>
-        <a href="#images">Images</a>
-        <a href="#logo">Logo & Icon</a>
-        <a href="#articles">Selected Articles</a>
-        <a href="#links">Additional Links</a>
-        <a href="#team">Team</a>
-        <a href="#contact">Contact</a>
-    </div>
-
-    <img src="https://i.imgur.com/4vNXphq.jpeg" alt="Comet Banner">
-
-    <h2 id="factsheet">Factsheet</h2>
-    <dl>
-        <dt>Developer</dt>
-        <dd>Team Comet</dd>
-
-        <dt>Release Date</dt>
-        <dd>TBD</dd>
-
-        <dt>Platforms</dt>
-        <dd>Playdate</dd>
-
-        <dt>Price</dt>
-        <dd>TBD</dd>
-
-        <dt>Awards</dt>
-        <dd>
-            Nominated<br>
-            Most Anticipated Game 2022<br>
-            Most Anticipated Game 2023<br>
-            <div class="won">Won</div>
-            Most Anticipated Game 2024
-        </dd>
-    </dl>
-
-    <h2 id="description">Description</h2>
-    <p>In Comet, you play as the exuberant Stella who confronts her fear of the dark to search for her brother. After witnessing a world-changing event, your brother mysteriously disappears in the middle of the night. You embark on a journey to follow his trail and find answers.</p>
-    <p>Players will crank up their lamp's light as they foray into the dark and travel across an island stirred by stardust magic. The adventure involves solving puzzles, collecting trinkets, querying islanders, and uncovering the secrets of an island fascinated by the Comet.</p>
-
-    <h2 id="history">History</h2>
-    <p>Starting in 2022 as a Pulp game, Comet was rebooted...</p>
-
-    <h2 id="features">Features</h2>
-    <ul>
-        <li><strong>Engaging Narrative:</strong> A mysterious disappearance sets you on a path to uncover island secrets</li>
-        <li><strong>Unique Gameplay:</strong> Use the Playdate's crank to control your lamp's light as you explore the darkness</li>
-        <li><strong>Puzzle Adventure:</strong> Solve various puzzles while exploring the island</li>
-        <li><strong>Collection System:</strong> Gather trinkets throughout your journey</li>
-        <li><strong>Rich World:</strong> Interact with islanders and discover the mystery of the Comet</li>
-        <li><strong>Distinctive Art Style:</strong> Beautiful black and white visuals optimized for Playdate's unique display</li>
-    </ul>
-
-    <h2 id="videos">Videos</h2>
-    <div class="video-item">
-        <h3>Reveal Trailer</h3>
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/b_WMclAu_pE" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="video-item">
-        <h3>Spotlight Trailer</h3>
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/kXEdy79ueLw" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-    <h2 id="images">Images & Screenshots</h2>
-    <div class="images-grid">
-        <img src="https://media-cdn.play.date/media/games/com.donaldfraser.comet/playdate-20240212-205704.gif" alt="Comet Gameplay">
-        <img src="https://media-cdn.play.date/media/games/com.donaldfraser.comet/Lena_FixedB.gif" alt="Lena Character">
-        <img src="https://media-cdn.play.date/media/games/com.donaldfraser.comet/ezgif-6-c5c79ede74Small_rmuqHET.gif" alt="Gameplay Sequence">
-        <img src="https://media-cdn.play.date/media/games/com.donaldfraser.comet/Workshop_D4X4ZBx.gif" alt="Workshop Scene">
-        <img src="https://media-cdn.play.date/media/games/com.donaldfraser.comet/fb0kOd_hsBGrws.gif" alt="Additional Gameplay">
-    </div>
-    <p>All images and videos are downloadable for press purposes.</p>
-
-    <h2 id="links">Additional Links</h2>
-    <h3>Catalog Page</h3>
-    <p>Official Storefront for the Playdate</p>
-    <p><a href="https://play.date/games/comet/">play.date/games/comet</a></p>
-
-    <h3>Development Log</h3>
-    <p>Development Posts created alongside the game</p>
-    <p><a href="https://guv-bubbs.itch.io/comet/devlog">View Development Log</a></p>
-
-    <h2 id="team">Team</h2>
-    <div class="team-member">
-        <a href="https://linktr.ee/guv_bubbs">Donald Bubbins Fraser</a> - Project / Design lead
-    </div>
-    <div class="team-member">
-        <a href="https://twitter.com/Drew_Loe/">Drew Loebach</a> - Programming lead
-    </div>
-    <div class="team-member">
-        <a href="https://x.com/xmenekai">Kirill</a> - Level & Cutscene artist
-    </div>
-    <div class="team-member">
-        <a href="https://twitter.com/toahiddenplace/">Maria</a> - Art lead
-    </div>
-    <div class="team-member">
-        <a href="https://williamaryitey.com/">William Aryitey</a> - Narrative lead
-    </div>
-
-    <h2 id="contact">Contact</h2>
-    <div class="contact-item">
-        <a href="mailto:Comet@astrolabe.pro">Comet@astrolabe.pro</a>
-    </div>
-    <div class="contact-item">
-        <a href="https://bsky.app/profile/guv-bubbs.bsky.social">guv-bubbs.bsky.social</a>
-    </div>
-    <div class="contact-item">
-        <a href="https://mastodon.gamedev.place/@Guv_Bubbs">@Guv_Bubbs@mastodon.gamedev.place</a>
-    </div>
-    <div class="contact-item">
-        <a href="https://x.com/Guv_Bubbs">@guv_Bubbs</a>
-    </div>
-</body>
-</html>
+        dl dd {
