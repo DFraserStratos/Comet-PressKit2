@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+  <title>Your Product Name</title>
+  <release-date>Release Date</release-date>
+  <website>https://product-website.com</website>
+
+  <description>
+    Your product description goes here.
+  </description>
+
+  <history>
+    Your product's development history.
+  </history>
+
+  <features>
+    <feature>Feature 1</feature>
+    <feature>Feature 2</feature>
+  </features>
+
+  <trailers>
+    <trailer>
+      <n>Trailer Name</n>
+      <youtube>video-id</youtube>
+    </trailer>
+  </trailers>
+
+  <credits>
+    <credit>
+      <person>Team Member</person>
+      <role>Role</role>
+    </credit>
+  </credits>
+
+  <contacts>
+    <contact>
+      <n>Inquiries</n>
+      <mail>contact@your-company.com</mail>
+    </contact>
+  </contacts>
+</product>
