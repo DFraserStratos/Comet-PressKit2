@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<company>
+  <!-- General Information -->
+  <title>Your Company Name</title>
+  <based-in>Your Location</based-in>
+  <founding-date>Your Founding Date</founding-date>
+  <website>https://your-website.com</website>
+  <phone>Your Phone Number</phone>
+
+  <address>
+    <line>Your Address Line 1</line>
+    <line>Your Address Line 2</line>
+    <line>Country</line>
+  </address>
+
+  <socials>
+    <social>
+      <n>Twitter</n>
+      <link>https://twitter.com/yourcompany</link>
+    </social>
+    <social>
+      <n>Facebook</n>
+      <link>https://facebook.com/yourcompany</link>
+    </social>
+  </socials>
+
+  <press-contact>press@your-company.com</press-contact>
+
+  <!-- Description -->
+  <description>
+    Your company description goes here.
+  </description>
+
+  <!-- History -->
+  <histories>
+    <history>
+      <header>Your Company History</header>
+      <text>Share your company's story here.</text>
+    </history>
+  </histories>
+
+  <!-- Team -->
+  <credits>
+    <credit>
+      <person>Team Member Name</person>
+      <role>Role, Your Company</role>
+      <website>https://member-website.com</website>
+    </credit>
+  </credits>
+
+  <!-- Contact Information -->
+  <contacts>
+    <contact>
+      <n>Inquiries</n>
+      <mail>contact@your-company.com</mail>
+    </contact>
+    <contact>
+      <n>Website</n>
+      <link>https://your-website.com</link>
+    </contact>
+  </contacts>
+</company>
