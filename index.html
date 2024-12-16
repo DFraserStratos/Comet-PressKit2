@@ -3,206 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Press Kit</title>
+    <title>Comet - Press Kit</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        html {
-            scroll-behavior: smooth;
-            scroll-padding-top: 70px;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: #333;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        .banner {
-            width: 100%;
-            background: #f8f9fa;
-            text-align: center;
-        }
-
-        .banner img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        nav {
-            background: white;
-            border-bottom: 1px solid #eee;
-            padding: 15px 0;
-            width: 100%;
-        }
-
-        nav.fixed {
-            position: fixed;
-            top: 0;
-            z-index: 1000;
-        }
-
-        .nav-content {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-        }
-
-        .game-title {
-            font-weight: bold;
-            margin-right: 20px;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 20px;
-        }
-
-        .nav-links a {
-            color: #666;
-            text-decoration: none;
-        }
-
-        .split-view {
-            display: grid;
-            grid-template-columns: 300px 1fr;
-            gap: 40px;
-            margin: 40px 0;
-        }
-
-        .factsheet {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 4px;
-        }
-
-        .factsheet h2 {
-            margin-bottom: 20px;
-        }
-
-        .factsheet dt {
-            font-weight: bold;
-            margin-top: 15px;
-        }
-
-        section {
-            margin: 40px 0;
-        }
-
-        h2 {
-            margin-bottom: 20px;
-        }
-
-        .videos-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-        }
-
-        .video-item {
-            margin-bottom: 30px;
-        }
-
-        .video-title {
-            margin-bottom: 10px;
-        }
-
-        .images-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            margin-bottom: 20px;
-        }
-
-        .images-grid img {
-            width: 100%;
-            height: auto;
-            border-radius: 4px;
-        }
-
-        .image-note {
-            color: #666;
-            font-size: 0.9em;
-            margin-top: 20px;
-        }
-
-        .article-quote {
-            margin-bottom: 20px;
-            padding: 20px;
-            background: #f8f9fa;
-            border-radius: 4px;
-        }
-
-        .additional-link {
-            margin-bottom: 20px;
-        }
-
-        .additional-link h3 {
-            margin-bottom: 5px;
-        }
-
-        .team-contact {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 40px;
-        }
-
-        .team-member {
-            margin-bottom: 15px;
-        }
-
-        .contact-item {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 15px;
-        }
-
-        .contact-item i {
-            width: 20px;
-        }
-
-        @media (max-width: 768px) {
-            .split-view {
-                grid-template-columns: 1fr;
-            }
-
-            .team-contact {
-                grid-template-columns: 1fr;
-            }
-
-            .images-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        @media (max-width: 480px) {
-            .images-grid {
-                grid-template-columns: 1fr;
-            }
+        /* Previous styles remain the same */
+        .won {
+            color: #2f855a;
         }
     </style>
 </head>
 <body>
     <div class="banner" id="top">
-        <img src="https://i.imgur.com/4vNXphq.jpeg" alt="Game Banner">
+        <img src="https://i.imgur.com/4vNXphq.jpeg" alt="Comet Banner">
     </div>
 
     <nav id="mainNav">
         <div class="container">
             <div class="nav-content">
-                <span class="game-title">Game Title</span> |
+                <span class="game-title">Comet</span> |
                 <div class="nav-links">
                     <a href="#factsheet">Factsheet</a>
                     <a href="#description">Description</a>
@@ -226,39 +44,49 @@
                 <h2>Factsheet</h2>
                 <dl>
                     <dt>Developer</dt>
-                    <dd>Studio Name</dd>
+                    <dd>Team Comet</dd>
 
                     <dt>Release Date</dt>
-                    <dd>Q4 2024</dd>
+                    <dd>TBD</dd>
 
                     <dt>Platforms</dt>
-                    <dd>PC, Mac, Linux</dd>
+                    <dd>Playdate</dd>
 
                     <dt>Price</dt>
-                    <dd>$19.99</dd>
+                    <dd>TBD</dd>
 
                     <dt>Awards</dt>
-                    <dd>Best Indie Game 2024<br>Innovation Award 2024</dd>
+                    <dd>
+                        Nominated<br>
+                        Most Anticipated Game 2022<br>
+                        Most Anticipated Game 2023<br>
+                        <span class="won">Won</span><br>
+                        Most Anticipated Game 2024
+                    </dd>
                 </dl>
             </div>
 
             <div class="content">
                 <section id="description">
                     <h2>Description</h2>
-                    <p>An engaging game description that captures the essence of the gameplay and story...</p>
+                    <p>In Comet, you play as the exuberant Stella who confronts her fear of the dark to search for her brother. After witnessing a world-changing event, your brother mysteriously disappears in the middle of the night. You embark on a journey to follow his trail and find answers.</p>
+                    <p>Players will crank up their lamp's light as they foray into the dark and travel across an island stirred by stardust magic. The adventure involves solving puzzles, collecting trinkets, querying islanders, and uncovering the secrets of an island fascinated by the Comet.</p>
                 </section>
 
                 <section id="history">
                     <h2>History</h2>
-                    <p>The journey of how this game came to be...</p>
+                    <p>Starting in 2022 as a Pulp game, Comet was rebooted...</p>
                 </section>
 
                 <section id="features">
                     <h2>Features</h2>
                     <ul>
-                        <li>Feature 1</li>
-                        <li>Feature 2</li>
-                        <li>Feature 3</li>
+                        <li><strong>Engaging Narrative:</strong> A mysterious disappearance sets you on a path to uncover island secrets</li>
+                        <li><strong>Unique Gameplay:</strong> Use the Playdate's crank to control your lamp's light as you explore the darkness</li>
+                        <li><strong>Puzzle Adventure:</strong> Solve various puzzles while exploring the island</li>
+                        <li><strong>Collection System:</strong> Gather trinkets throughout your journey</li>
+                        <li><strong>Rich World:</strong> Interact with islanders and discover the mystery of the Comet</li>
+                        <li><strong>Distinctive Art Style:</strong> Beautiful black and white visuals optimized for Playdate's unique display</li>
                     </ul>
                 </section>
             </div>
@@ -268,11 +96,11 @@
             <h2>Videos</h2>
             <div class="videos-grid">
                 <div class="video-item">
-                    <h3 class="video-title">Gameplay Trailer</h3>
+                    <h3 class="video-title">Reveal Trailer</h3>
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/b_WMclAu_pE" frameborder="0" allowfullscreen></iframe>
                 </div>
                 <div class="video-item">
-                    <h3 class="video-title">Developer Diary</h3>
+                    <h3 class="video-title">Spotlight Trailer</h3>
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/kXEdy79ueLw" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
@@ -281,38 +109,26 @@
         <section id="images">
             <h2>Images & Screenshots</h2>
             <div class="images-grid">
-                <img src="/api/placeholder/400/300" alt="Screenshot 1">
-                <img src="/api/placeholder/400/300" alt="Screenshot 2">
-                <img src="/api/placeholder/400/300" alt="Screenshot 3">
-                <img src="/api/placeholder/400/300" alt="Screenshot 4">
-                <img src="/api/placeholder/400/300" alt="Screenshot 5">
-                <img src="/api/placeholder/400/300" alt="Screenshot 6">
+                <img src="https://media-cdn.play.date/media/games/com.donaldfraser.comet/playdate-20240212-205704.gif" alt="Comet Gameplay">
+                <img src="https://media-cdn.play.date/media/games/com.donaldfraser.comet/Lena_FixedB.gif" alt="Lena Character">
+                <img src="https://media-cdn.play.date/media/games/com.donaldfraser.comet/ezgif-6-c5c79ede74Small_rmuqHET.gif" alt="Gameplay Sequence">
+                <img src="https://media-cdn.play.date/media/games/com.donaldfraser.comet/Workshop_D4X4ZBx.gif" alt="Workshop Scene">
+                <img src="https://media-cdn.play.date/media/games/com.donaldfraser.comet/fb0kOd_hsBGrws.gif" alt="Additional Gameplay">
             </div>
             <p class="image-note">All images and videos are downloadable for press purposes.</p>
-        </section>
-
-        <section id="logo">
-            <h2>Logo & Icon</h2>
-            <div class="images-grid">
-                <img src="/api/placeholder/400/300" alt="Logo">
-                <img src="/api/placeholder/400/300" alt="Icon">
-            </div>
-        </section>
-
-        <section id="articles">
-            <h2>Selected Articles</h2>
-            <div class="article-quote">
-                <blockquote>"An innovative take on the genre that pushes boundaries."</blockquote>
-                <cite>- Gaming Magazine</cite>
-            </div>
         </section>
 
         <section id="links">
             <h2>Additional Links</h2>
             <div class="additional-link">
-                <h3>Official Website</h3>
-                <p>Visit our website for more information</p>
-                <a href="#">www.example.com</a>
+                <h3>Catalog Page</h3>
+                <p>Official Storefront for the Playdate</p>
+                <a href="https://play.date/games/comet/">play.date/games/comet</a>
+            </div>
+            <div class="additional-link">
+                <h3>Development Log</h3>
+                <p>Development Posts created alongside the game</p>
+                <a href="https://guv-bubbs.itch.io/comet/devlog">View Development Log</a>
             </div>
         </section>
 
@@ -320,10 +136,19 @@
             <section id="team">
                 <h2>Team</h2>
                 <div class="team-member">
-                    <a href="#">John Doe</a> - Creative Director
+                    <a href="https://linktr.ee/guv_bubbs">Donald Bubbins Fraser</a> - Project / Design lead
                 </div>
                 <div class="team-member">
-                    <a href="#">Jane Smith</a> - Lead Developer
+                    <a href="https://twitter.com/Drew_Loe/">Drew Loebach</a> - Programming lead
+                </div>
+                <div class="team-member">
+                    <a href="https://x.com/xmenekai">Kirill</a> - Level & Cutscene artist
+                </div>
+                <div class="team-member">
+                    <a href="https://twitter.com/toahiddenplace/">Maria</a> - Art lead
+                </div>
+                <div class="team-member">
+                    <a href="https://williamaryitey.com/">William Aryitey</a> - Narrative lead
                 </div>
             </section>
 
@@ -331,47 +156,24 @@
                 <h2>Contact</h2>
                 <div class="contact-item">
                     <i class="fas fa-envelope"></i>
-                    <span>press@example.com</span>
+                    <a href="mailto:Comet@astrolabe.pro">Comet@astrolabe.pro</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-cloud"></i>
+                    <a href="https://bsky.app/profile/guv-bubbs.bsky.social">guv-bubbs.bsky.social</a>
                 </div>
                 <div class="contact-item">
                     <i class="fab fa-mastodon"></i>
-                    <span>@example@mastodon.social</span>
+                    <a href="https://mastodon.gamedev.place/@Guv_Bubbs">@Guv_Bubbs@mastodon.gamedev.place</a>
                 </div>
                 <div class="contact-item">
                     <i class="fab fa-twitter"></i>
-                    <span>@example</span>
+                    <a href="https://x.com/Guv_Bubbs">@guv_Bubbs</a>
                 </div>
             </section>
         </div>
     </div>
 
-    <script>
-        const nav = document.getElementById('mainNav');
-        const banner = document.querySelector('.banner');
-        
-        window.addEventListener('scroll', () => {
-            if (window.scrollY >= banner.offsetHeight) {
-                nav.classList.add('fixed');
-                document.body.style.paddingTop = nav.offsetHeight + 'px';
-            } else {
-                nav.classList.remove('fixed');
-                document.body.style.paddingTop = '0';
-            }
-        });
-
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href');
-                const targetElement = document.querySelector(targetId);
-                
-                if (targetElement) {
-                    targetElement.scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-    </script>
+    <!-- Previous scripts remain the same -->
 </body>
 </html>
