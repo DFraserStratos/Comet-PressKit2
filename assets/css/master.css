@@ -1,0 +1,10 @@
+body { font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.5; margin: 0; padding: 20px; }
+#container { max-width: 900px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 40px; }
+.section { margin-bottom: 30px; }
+h1 { color: #333; }
+h2 { color: #666; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+.contact-info { background: #f5f5f5; padding: 20px; border-radius: 5px; }
+.quote { font-style: italic; color: #666; }
+.award { margin-bottom: 15px; }
+.team-member { margin-bottom: 20px; }
